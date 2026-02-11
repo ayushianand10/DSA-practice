@@ -18,25 +18,12 @@ To prepare for technical interviews and placements
 
 🧠 Topics Covered
 
-This repository includes problems based on:
+ Ongoing topics:
 
+ Patterns
  Arrays
 
- Strings
 
- Linked List
-
- Stack & Queue
-
- Recursion
-
- Searching & Sorting
-
- Hashing
-
- Trees
-
- Graphs
 
  Dynamic Programming
 
