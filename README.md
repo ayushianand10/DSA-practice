@@ -20,8 +20,8 @@ To prepare for technical interviews and placements
 
  Ongoing topics:
 
- Patterns
- Arrays
+-- Patterns
+-- Arrays
 
 
 
