@@ -22,6 +22,7 @@ To prepare for technical interviews and placements
 
 -- Patterns
 -- Arrays
+-- Sorting 
 
 
 
