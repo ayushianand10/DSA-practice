@@ -86,8 +86,27 @@ public class JavaBasics {
         return true;
     }
 
-
+    public static void primesInRange(int n){
+        for(int i=2;i<=n;i++){
+            if(isPrime(i)){ //true
+                System.out.println(i + " ");
+                }
+        }
+        System.out.println();
+    }
     
+    public static void binToDec(int binNum){
+        int myNum = binNum;
+        int pow = 0;
+        int decNum = 0;
+        while(binNum>0){
+            int lastDigit = binNum%10;
+            decNum = decNum + (lastDigit*(int)Math.pow(2,pow));
+            pow++;
+            binNum = binNum/10;
+        }
+    System.out.println("decimal of "+myNum+"="+decNum);
+    }    
     public static void main(String args[]){
         /* Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -113,8 +132,10 @@ public class JavaBasics {
       //System.out.println(sum(1,3));
       //System.out.println(sum(2.32f,4.4f));
 
-       System.out.println(isPrime(29));
+       //System.out.println(isPrime(29));
 
+    //primesInRange(20);
 
+    binToDec(101);
     }
 }
